@@ -17,7 +17,7 @@ app.get("/", (req, res) => {
   }
 
   res.status(200).send({
-    message: `Hello  ${req.query.name || "Stranger"}`,
+    message: `Good morning ${req.query.name || "Stranger"}`,
   });
 });
 
